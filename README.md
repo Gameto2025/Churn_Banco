@@ -64,7 +64,7 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/Gameto2025/Churn_Banco.git](https://github.com/Gameto2025/Churn_Banco.git)
+   git clone [https://github.com/Gameto2025/Churn_Banco.git]
 
 👥 Equipo de Trabajo
 Gabriel Mendez Oteiza: Equipo Data Science.
