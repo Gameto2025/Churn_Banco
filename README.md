@@ -67,6 +67,8 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
    git clone [https://github.com/Gameto2025/Churn_Banco.git]
 
 👥 Equipo de Trabajo
+
 Gabriel Mendez Oteiza: Equipo Data Science.
+
 Martin Abreu   Equipo Data Svience.
 
