@@ -11,7 +11,7 @@ Este proyecto implementa una solución de **inteligencia artificial** de extremo
 
 ### 🛠️ Tecnologías
 * **Modelado:** Python (XGBoost)
-* **Interoperabilidad:** PMML y pkl
+* **Interoperabilidad:** PMML y PKL
 
 ---
 
@@ -45,12 +45,19 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
 ### Entrada para predecir:
 
    Edad del cliente: 
+
+   
    Número de productos contratados: 
    ¿La cuenta está ACTIVA actualmente? (1=Sí, 0=No): 
+   
    País:
+   
    0 = France
+   
    1 = Germany
+   
    2 = Spain
+   
    Seleccione país: 
 
 ## ⚙️ Instalación y Ejecución Local
