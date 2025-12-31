@@ -30,9 +30,13 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
  Contrato de entrada:
 [
     'Age_Risk',
+    
     'NumOfProducts',
+    
     'Inactivo_40_70',
+    
     'Products_Risk_Flag',
+    
     'Country_Risk_Flag'
 ]
 ---
