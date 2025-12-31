@@ -11,7 +11,7 @@ Este proyecto implementa una solución de **inteligencia artificial** de extremo
 
 ### 🛠️ Tecnologías
 * **Modelado:** Python (XGBoost)
-* **Interoperabilidad:** PMML
+* **Interoperabilidad:** PMML y pkl
 
 ---
 
@@ -27,7 +27,7 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
 ### ⚙️ Recursos y Configuración (`/src/main/resources`)
 * `modelo_churn_banco.pmml`: Modelo predictivo entrenado para ser leido por java.
 
-###Contrato de entrada:
+ Contrato de entrada:
 [
     'Age_Risk',
     'NumOfProducts',
