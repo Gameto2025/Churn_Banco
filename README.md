@@ -27,15 +27,32 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
 ### ⚙️ Recursos y Configuración (`/src/main/resources`)
 * `modelo_churn_banco.pmml`: Modelo predictivo entrenado para ser leido por java.
 
+###Contrato de entrada:
+[
+    'Age_Risk',
+    'NumOfProducts',
+    'Inactivo_40_70',
+    'Products_Risk_Flag',
+    'Country_Risk_Flag'
+]
 ---
+
+### Entrada para predecir:
+
+   Edad del cliente: 
+   Número de productos contratados: 
+   ¿La cuenta está ACTIVA actualmente? (1=Sí, 0=No): 
+   País:
+   0 = France
+   1 = Germany
+   2 = Spain
+   Seleccione país: 
 
 ## ⚙️ Instalación y Ejecución Local
 
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/Gameto2025/Churn_Banco.git](https://github.com/Gameto2025/Churn_Banco.git)
-Compilar e instalar:
-
 
 👥 Equipo de Trabajo
 Gabriel Mendez Oteiza: Equipo Data Science.
