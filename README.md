@@ -19,15 +19,17 @@ Este proyecto implementa una solución de **inteligencia artificial** de extremo
 El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero competitivo. Esta solución transforma el dataset histórico `Banco_Churn.csv` en un modelo predictivo robusto, capaz de estimar el riesgo de abandono de cada cliente en tiempo real.
 
 ### ⭐ Características Principales
-1.  **Modelo XGBoost:** Implementación de alto rendimiento para clasificación.
-2.  **Interoperabilidad PMML:** Exportación del modelo para consumo en Java sin dependencias de Python.
+1. **Dataset Utilizado**: Banco_Churn.csv
+2.  **Modelo XGBoost:** Implementación de alto rendimiento para clasificación.
+3.  **Interoperabilidad PMML:** Exportación del modelo para consumo en Java sin dependencias de Python.
 
 ---
 
 ### ⚙️ Recursos y Configuración
-* `modelo_churn_banco.pmml`: Modelo predictivo entrenado para ser leido por java.
 
- Contrato de entrada:
+**`modelo_churn_banco.pmml`**: Modelo predictivo entrenado para ser usado en BackEnd y ser leido por java.
+
+ **Contrato de entrada:**
 
 [
     'Age_Risk',
@@ -42,10 +44,9 @@ El Banco Alura enfrenta el desafío de retener clientes en un entorno financiero
 ]
 ---
 
-### Entrada para predecir:
+### Entrada para predecir Churn:
 
    Edad del cliente: 
-
    
    Número de productos contratados: 
    ¿La cuenta está ACTIVA actualmente? (1=Sí, 0=No): 
